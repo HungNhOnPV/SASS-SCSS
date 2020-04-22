@@ -10,6 +10,21 @@
     p {
         color: #e6e6e6;
         border-bottom: 1px dashed yellow;
-        display: inline;
+    }
+
+    p.content {
+        color: greenyellow;
+        padding: 5px 10px;
+        border: {
+            top: 3px solid red;
+            right: 3px solid yellow;
+            bottom: 3px solid green;
+            left: 3px solid orange;
+        };
+        font: {
+            size: 16px;
+            weight: bold;
+            
+        }
     }
 }
