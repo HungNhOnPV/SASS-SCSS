@@ -1,0 +1,11 @@
+// lay ra mot value theo key
+@debug map-get($map: (long: 50px, medium: 30px, short: 10px), $key: long);
+
+// remove mot value theo key
+@debug map-remove($map: (long: 50px, medium: 30px, short: 10px), $keys: long);
+
+// tao ra mot map moi tu map1 va map2
+@debug map-merge($map1: (long: 50px, medium: 30px, short: 10px), $map2: (long2: 50px, medium2: 30px, short2: 10px));
+
+// lay toan bo value
+@debug map-values($map: (long: 50px, medium: 30px, short: 10px));
