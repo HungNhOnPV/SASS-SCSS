@@ -1,10 +1,15 @@
 // mixin nhu 1 khung
-@mixin box ($width, $height, $line_height, $background, $border_radius) {
+@mixin box ($width, $height, $line_height, $background, $border_radius, $circle) {
     width: $width;
     height: $height;
     line-height: $line_height;
     background: $background;
-    border-radius: $border_radius;
+    @if $circle == true {
+        border-radius: $border_radius;
+    }
+    @else {
+        border-radius: 0;
+    }
 }
 
 // placeholder
@@ -18,7 +23,7 @@
 
 .container {
     .box1 {
-        @include box(200px, 100px, 100px, #e6e6e6, 3px);
+        @include box(200px, 200px, 200px, #e6e6e6, 50%, true);
 
         &-text {
             text-align: center;

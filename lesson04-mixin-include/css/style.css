@@ -8,10 +8,10 @@
 
 .container .box1, .container .box3 {
   width: 200px;
-  height: 100px;
-  line-height: 100px;
+  height: 200px;
+  line-height: 200px;
   background: #e6e6e6;
-  border-radius: 3px;
+  border-radius: 50%;
 }
 .container .box1-text, .container .box3 {
   text-align: center;
