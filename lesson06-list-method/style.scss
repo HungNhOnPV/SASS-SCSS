@@ -1,0 +1,13 @@
+$lists: 1px, 2px, 3px;
+
+//tao mot list moi va them mot bien moi
+$newList: append($list1: 1px, 2px, 3px, $val: 4px);
+
+// lay gia tri cua mot bien theo vi tri
+$item: nth($list:  1px, 2px, 3px, $n: 1);
+
+// tao ra mot list moi va sua gia tri theo vi tri
+$new-item: set-nth($list:  1px, 2px, 3px, $n: 1, $value: 2px);
+
+// tra ve do dai cua list
+$length: length($list:  1px, 2px, 3px);
