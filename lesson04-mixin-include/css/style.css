@@ -25,5 +25,29 @@
   font-weight: bold;
   font-family: "arial";
 }
+.container .nav-20 {
+  width: 100px;
+  background: blueviolet;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+.container .nav-50 {
+  width: 250px;
+  background: blueviolet;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+.container .nav-100 {
+  width: 500px;
+  background: blueviolet;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */

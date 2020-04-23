@@ -53,4 +53,16 @@
 
         @extend .box1-text;
     }
+
+    $sizes: 20, 50, 100;
+    @each $size in $sizes {
+        .nav-#{$size} {
+            width: $size * 5px;
+            background: blueviolet;
+            margin-top: 10px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+        }
+    }
 }
