@@ -1,18 +1,25 @@
-.panel-body h3 {
+.panel-danger .panel-body h3 {
   color: #7b1fa2;
 }
-.panel-body p {
+.panel-danger .panel-body p {
   background: #7b1fa2;
 }
-.panel-body p a {
+.panel-danger .panel-body p a {
   font-size: 32px;
   color: yellow;
   text-decoration: none;
   cursor: wait;
 }
-.panel-body span {
+.panel-danger .panel-body span {
   border: 2px solid #7b1fa2;
   color: yellow;
+}
+
+.panel-primary .panel-body h1 {
+  color: red;
+}
+.panel-primary .panel-body p {
+  font-size: 32px;
 }
 
 /*# sourceMappingURL=style.css.map */
