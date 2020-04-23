@@ -1,0 +1,25 @@
+.container button {
+  padding: 10px 20px;
+  color: #e6e6e6;
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  transition: 0.4s;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container button:hover {
+  background: #e6e6e6;
+  color: white;
+  transition: 0.4s;
+}
+.container button:focus {
+  border: 1px solid #e6e6e6;
+  background: violet;
+}
+.container-title {
+  color: red;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
