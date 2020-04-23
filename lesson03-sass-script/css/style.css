@@ -22,4 +22,8 @@
   font-size: 32px;
 }
 
+.panel-warning .panel-body .content {
+  background-color: red;
+}
+
 /*# sourceMappingURL=style.css.map */
