@@ -1,0 +1,14 @@
+// mixin nhu 1 khung
+@mixin box ($width, $height, $line_height, $background, $border_radius) {
+    width: $width;
+    height: $height;
+    line-height: $line_height;
+    background: $background;
+    border-radius: $border_radius;
+}
+
+.container {
+    .box1 {
+        @include box(200px, 100px, 100px, #e6e6e6, 3px)
+    }
+}
