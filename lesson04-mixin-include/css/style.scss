@@ -7,8 +7,45 @@
     border-radius: $border_radius;
 }
 
+// placeholder
+%box {
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    background: #e6e6e6;
+    border-radius: 3px;
+}
+
 .container {
     .box1 {
-        @include box(200px, 100px, 100px, #e6e6e6, 3px)
+        @include box(200px, 100px, 100px, #e6e6e6, 3px);
+
+        &-text {
+            text-align: center;
+            font: {
+                size: 32px;
+                weight: bold;
+                family: 'arial';
+            }
+        }
+    }
+
+    .box2 {
+        @extend %box;
+
+        &-text {
+            text-align: center;
+            font: {
+                size: 32px;
+                weight: bold;
+                family: 'arial';
+            }
+        }
+    }
+
+    .box3 {
+        @extend .box1;
+
+        @extend .box1-text;
     }
 }

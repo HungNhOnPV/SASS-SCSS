@@ -1,9 +1,29 @@
-.container .box1 {
+.container .box2 {
   width: 200px;
   height: 100px;
   line-height: 100px;
   background: #e6e6e6;
   border-radius: 3px;
+}
+
+.container .box1, .container .box3 {
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  background: #e6e6e6;
+  border-radius: 3px;
+}
+.container .box1-text, .container .box3 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "arial";
+}
+.container .box2-text {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "arial";
 }
 
 /*# sourceMappingURL=style.css.map */
