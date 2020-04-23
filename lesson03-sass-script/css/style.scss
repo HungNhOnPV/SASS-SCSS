@@ -1,0 +1,26 @@
+$primary_color: #7b1fa2;
+$text-large-size: 32px;
+
+.panel-body {
+    h3 {
+        color: $primary_color;
+    }
+
+    p {
+        $yellow-color: yellow !global;
+        background: $primary_color;
+        
+        a {
+            font-size: $text-large-size;
+            color: $yellow-color;
+            text-decoration: none;
+            cursor: wait;
+        }
+    }
+
+    span {
+        border: 2px solid $primary_color;
+        // không gọi được vì $yellow_color là biến toàn cục trong thể  b phải thêm thuộc tính !global
+        color: $yellow-color;
+    }
+}

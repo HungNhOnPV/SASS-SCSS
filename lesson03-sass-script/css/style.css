@@ -1,0 +1,18 @@
+.panel-body h3 {
+  color: #7b1fa2;
+}
+.panel-body p {
+  background: #7b1fa2;
+}
+.panel-body p a {
+  font-size: 32px;
+  color: yellow;
+  text-decoration: none;
+  cursor: wait;
+}
+.panel-body span {
+  border: 2px solid #7b1fa2;
+  color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
